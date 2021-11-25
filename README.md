@@ -6,6 +6,9 @@ https://youtube.com/devsuperior
 
 https://instagram.com/devsuperior.ig
 
+### Utilizando RestTemplate
+http://dfsistemasweb.com.br/utilizando-resttemplate-para-consumir-webservice-viacep/
+
 # Fase 1: Comunicação simples, Feign, Ribbon
 
 ### 1.1 Criar projeto hr-worker
