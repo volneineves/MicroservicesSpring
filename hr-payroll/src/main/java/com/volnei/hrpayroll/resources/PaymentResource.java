@@ -1,6 +1,7 @@
 package com.volnei.hrpayroll.resources;
 
 import com.volnei.hrpayroll.entities.Payment;
+import com.volnei.hrpayroll.entities.Worker;
 import com.volnei.hrpayroll.services.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -8,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 @RequestMapping(value = "/payments")
