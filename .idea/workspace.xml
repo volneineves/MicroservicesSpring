@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Configuring EurekaService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/volnei/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/volnei/hrpayroll/HrPayrollApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/volnei/hrpayroll/resources/PaymentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/volnei/hrpayroll/resources/PaymentResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +111,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrPayrollApplication" />
+        <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrEurekaServerApplication" />
         <item itemvalue="JUnit.All in hr-eureka-server" />
       </list>
