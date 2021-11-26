@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Project hr-config-server created">
-      <change afterPath="$PROJECT_DIR$/ms-course-configs/hr-worker-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-course-configs/hr-worker.properties" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Fixing hr-config-server project">
+      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/java/com/volnei/hrconfigserver/HrConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/java/com/volnei/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +47,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-config-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-worker/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.HrConfigServerApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-worker\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HrWorkerApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -129,11 +133,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrConfigServerApplication" />
-        <item itemvalue="Application.HrApiGatewayZuulApplication" />
-        <item itemvalue="Application.HrPayrollApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
+        <item itemvalue="Application.HrPayrollApplication" />
+        <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrEurekaServerApplication" />
+        <item itemvalue="Application.HrConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +199,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637953624608</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Project hr-config-server created">
+      <created>1637955135658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637955135658</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Configuring hr-config-server project">
+      <created>1637955166844</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637955166844</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fixing hr-config-server project">
+      <created>1637956512054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637956512054</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +245,8 @@
     <MESSAGE value="Random port to hr-payroll" />
     <MESSAGE value="Zuul timeout" />
     <MESSAGE value="Project hr-config-server created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project hr-config-server created" />
+    <MESSAGE value="Configuring hr-config-server project" />
+    <MESSAGE value="Fixing hr-config-server project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing hr-config-server project" />
   </component>
 </project>
