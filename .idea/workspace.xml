@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Random port to hr-payroll">
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Zuul timeout">
+      <change afterPath="$PROJECT_DIR$/hr-config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/src/main/java/com/volnei/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-config-server/src/test/java/com/volnei/hrconfigserver/HrConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-api-gateway-zuul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-config-server" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -176,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637946504055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Zuul timeout">
+      <created>1637947104556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637947104556</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +215,7 @@
     <MESSAGE value="Configuring Zull api gateway" />
     <MESSAGE value="Random port to hr-paroll" />
     <MESSAGE value="Random port to hr-payroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random port to hr-payroll" />
+    <MESSAGE value="Zuul timeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zuul timeout" />
   </component>
 </project>
