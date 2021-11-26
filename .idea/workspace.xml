@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Zuul timeout">
-      <change afterPath="$PROJECT_DIR$/hr-config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/src/main/java/com/volnei/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-config-server/src/test/java/com/volnei/hrconfigserver/HrConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Project hr-config-server created">
+      <change afterPath="$PROJECT_DIR$/ms-course-configs/hr-worker-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-course-configs/hr-worker.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/java/com/volnei/hrconfigserver/HrConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/java/com/volnei/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +48,32 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-config-server" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.HrApiGatewayZuulApplication">
+  <component name="RunManager" selected="Application.HrConfigServerApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.volnei.hrapigatewayzuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.volnei.hrconfigserver.HrConfigServerApplication" />
+      <module name="hr-config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.volnei.hrconfigserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,28 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in hr-eureka-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hr-eureka-server" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.HrPayrollApplication" />
       <item itemvalue="Application.HrWorkerApplication" />
       <item itemvalue="Application.HrEurekaServerApplication" />
-      <item itemvalue="JUnit.All in hr-eureka-server" />
       <item itemvalue="Application.HrApiGatewayZuulApplication" />
+      <item itemvalue="Application.HrConfigServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HrConfigServerApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrPayrollApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrEurekaServerApplication" />
-        <item itemvalue="JUnit.All in hr-eureka-server" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637947104556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Project hr-config-server created">
+      <created>1637953624608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637953624608</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +219,7 @@
     <MESSAGE value="Random port to hr-paroll" />
     <MESSAGE value="Random port to hr-payroll" />
     <MESSAGE value="Zuul timeout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zuul timeout" />
+    <MESSAGE value="Project hr-config-server created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project hr-config-server created" />
   </component>
 </project>
