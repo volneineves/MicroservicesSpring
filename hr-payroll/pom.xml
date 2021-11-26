@@ -25,30 +25,6 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>3.0.5</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-            <version>2.2.10.RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>
-                spring-cloud-starter-netflix-hystrix
-            </artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -58,6 +34,26 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>
+                spring-cloud-starter-netflix-eureka-client
+            </artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>
+                spring-cloud-starter-netflix-hystrix
+            </artifactId>
         </dependency>
     </dependencies>
 
@@ -81,5 +77,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 </project>
