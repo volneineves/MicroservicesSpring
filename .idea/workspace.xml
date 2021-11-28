@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Database seeding">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/resources/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="UserRepository, UserResource and Zuul config">
+      <change afterPath="$PROJECT_DIR$/hr-oauth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/HrOauthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/test/java/com/volnei/hroauth/HrOauthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-oauth" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -274,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638133016654</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="UserRepository, UserResource and Zuul config">
+      <created>1638135392177</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638135392177</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,6 +321,7 @@
     <MESSAGE value="Project hr-user created and configurated" />
     <MESSAGE value="User, Role, many to many association" />
     <MESSAGE value="Database seeding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database seeding" />
+    <MESSAGE value="UserRepository, UserResource and Zuul config" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserRepository, UserResource and Zuul config" />
   </component>
 </project>
