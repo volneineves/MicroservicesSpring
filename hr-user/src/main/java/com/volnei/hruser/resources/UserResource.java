@@ -1,0 +1,30 @@
+package com.volnei.hruser.resources;
+
+import com.volnei.hruser.entities.User;
+import com.volnei.hruser.repositories.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.HttpRequestMethodNotSupportedException;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.HttpClientErrorException;
+
+@RestController
+@RequestMapping(value = "/users")
+public class UserResource {
+
+    @Autowired
+    private UserRepository repository;
+
+    @GetMapping(value = "/{id}")
+    public ResponseEntity<User> findById(@PathVariable Long id){
+        User obj = repository.findById(id).get();
+        return ResponseEntity.ok(obj);
+    }
+
+    @GetMapping(value = "/search")
+    public ResponseEntity<User> findByEmail(@RequestParam String email){
+        User obj = repository.findByEmail(email);
+        return ResponseEntity.ok(obj);
+    }
+}

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="User, Role, many to many association">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/data.sql" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Database seeding">
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/resources/UserResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,7 @@
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-worker\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrUserApplication">
+  <component name="RunManager" selected="Application.HrApiGatewayZuulApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -149,9 +153,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HrUserApplication" />
+        <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrEurekaServerApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
-        <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrPayrollApplication" />
       </list>
     </recent_temporary>
@@ -263,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638131782357</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Database seeding">
+      <created>1638133016654</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1638133016654</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +305,7 @@
     <MESSAGE value="Actuator for runtime config refresh" />
     <MESSAGE value="Project hr-user created and configurated" />
     <MESSAGE value="User, Role, many to many association" />
-    <option name="LAST_COMMIT_MESSAGE" value="User, Role, many to many association" />
+    <MESSAGE value="Database seeding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database seeding" />
   </component>
 </project>
