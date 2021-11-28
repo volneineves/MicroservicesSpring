@@ -85,7 +85,7 @@
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-worker\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrApiGatewayZuulApplication">
+  <component name="RunManager" selected="Application.HrOauthApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HrPayrollApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.volnei.hrpayroll.HrPayrollApplication" />
-      <module name="hr-payroll" />
+    <configuration name="HrOauthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.volnei.hroauth.HrOauthApplication" />
+      <module name="hr-oauth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.volnei.hrpayroll.*" />
+          <option name="PATTERN" value="com.volnei.hroauth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HrPayrollApplication" />
       <item itemvalue="Application.HrWorkerApplication" />
       <item itemvalue="Application.HrEurekaServerApplication" />
       <item itemvalue="Application.HrApiGatewayZuulApplication" />
       <item itemvalue="Application.HrUserApplication" />
+      <item itemvalue="Application.HrOauthApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HrOauthApplication" />
+        <item itemvalue="Application.HrEurekaServerApplication" />
         <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
-        <item itemvalue="Application.HrEurekaServerApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
-        <item itemvalue="Application.HrPayrollApplication" />
       </list>
     </recent_temporary>
   </component>
