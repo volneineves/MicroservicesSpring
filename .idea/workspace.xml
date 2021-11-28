@@ -4,23 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Actuator for runtime config refresh">
-      <change afterPath="$PROJECT_DIR$/hr-user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/HrUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/test/java/com/volnei/hruser/HrUserApplicationTests.java" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Project hr-user created and configurated">
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +62,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-user" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -74,26 +74,13 @@
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-worker\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrWorkerApplication">
+  <component name="RunManager" selected="Application.HrUserApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.volnei.hrapigatewayzuul.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HrConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.volnei.hrconfigserver.HrConfigServerApplication" />
-      <module name="hr-config-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.volnei.hrconfigserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrUserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.volnei.hruser.HrUserApplication" />
+      <module name="hr-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.volnei.hruser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrWorkerApplication" type="Application" factoryName="Application" singleton="false" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrworker.HrWorkerApplication" />
       <module name="hr-worker" />
@@ -145,15 +145,15 @@
       <item itemvalue="Application.HrWorkerApplication" />
       <item itemvalue="Application.HrEurekaServerApplication" />
       <item itemvalue="Application.HrApiGatewayZuulApplication" />
-      <item itemvalue="Application.HrConfigServerApplication" />
+      <item itemvalue="Application.HrUserApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HrUserApplication" />
+        <item itemvalue="Application.HrEurekaServerApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
         <item itemvalue="Application.HrPayrollApplication" />
-        <item itemvalue="Application.HrEurekaServerApplication" />
-        <item itemvalue="Application.HrConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637960568114</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Project hr-user created and configurated">
+      <created>1638130910806</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638130910806</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +286,7 @@
     <MESSAGE value="Fixing hr-config-server project" />
     <MESSAGE value="hr-worker as a config server client" />
     <MESSAGE value="Actuator for runtime config refresh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actuator for runtime config refresh" />
+    <MESSAGE value="Project hr-user created and configurated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project hr-user created and configurated" />
   </component>
 </project>
