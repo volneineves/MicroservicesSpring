@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Project hr-user created and configurated">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/java/com/volnei/hruser/entities/User.java" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="User, Role, many to many association">
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638130910806</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="User, Role, many to many association">
+      <created>1638131782357</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1638131782357</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +293,7 @@
     <MESSAGE value="hr-worker as a config server client" />
     <MESSAGE value="Actuator for runtime config refresh" />
     <MESSAGE value="Project hr-user created and configurated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project hr-user created and configurated" />
+    <MESSAGE value="User, Role, many to many association" />
+    <option name="LAST_COMMIT_MESSAGE" value="User, Role, many to many association" />
   </component>
 </project>
