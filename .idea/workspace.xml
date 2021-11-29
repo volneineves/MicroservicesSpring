@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="hr-user Postgres dev profile" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Container references">
+      <change afterPath="$PROJECT_DIR$/hr-config-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -149,11 +152,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HrConfigServerApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrUserApplication" />
-        <item itemvalue="Application.HrOauthApplication" />
-        <item itemvalue="Application.HrConfigServerApplication" />
         <item itemvalue="Application.HrPayrollApplication" />
+        <item itemvalue="Application.HrOauthApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638209000747</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Container references">
+      <created>1638209418546</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1638209418546</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +368,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ribbon load balancing" />
     <MESSAGE value="Configuring EurekaService" />
     <MESSAGE value="Project hr-api-gateway-zuul created" />
     <MESSAGE value="Configuring Zull api gateway" />
@@ -383,6 +392,7 @@
     <MESSAGE value="Cors configuration" />
     <MESSAGE value="DB config server" />
     <MESSAGE value="hr-user Postgres dev profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="hr-user Postgres dev profile" />
+    <MESSAGE value="Container references" />
+    <option name="LAST_COMMIT_MESSAGE" value="Container references" />
   </component>
 </project>
