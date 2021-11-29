@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="DB config server">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" afterDir="false" />
-    </list>
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="hr-user Postgres dev profile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -339,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638198068960</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="hr-user Postgres dev profile">
+      <created>1638209000747</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1638209000747</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,6 +382,7 @@
     <MESSAGE value="Security configs to config server" />
     <MESSAGE value="Cors configuration" />
     <MESSAGE value="DB config server" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB config server" />
+    <MESSAGE value="hr-user Postgres dev profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="hr-user Postgres dev profile" />
   </component>
 </project>
