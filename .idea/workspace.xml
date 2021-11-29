@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Container references">
-      <change afterPath="$PROJECT_DIR$/hr-config-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="hr-config-server container">
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638209418546</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="hr-config-server container">
+      <created>1638212616557</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638212616557</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,7 +374,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Configuring EurekaService" />
     <MESSAGE value="Project hr-api-gateway-zuul created" />
     <MESSAGE value="Configuring Zull api gateway" />
     <MESSAGE value="Random port to hr-paroll" />
@@ -393,6 +398,7 @@
     <MESSAGE value="DB config server" />
     <MESSAGE value="hr-user Postgres dev profile" />
     <MESSAGE value="Container references" />
-    <option name="LAST_COMMIT_MESSAGE" value="Container references" />
+    <MESSAGE value="hr-config-server container" />
+    <option name="LAST_COMMIT_MESSAGE" value="hr-config-server container" />
   </component>
 </project>
