@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Cors configuration" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Cors configuration">
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-oauth/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-user/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,13 +75,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-user\src\main\resources" />
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-oauth\src\main\resources" />
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-api-gateway-zuul\src\main\resources" />
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-oauth\src\main\java\com\volnei\hroauth" />
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-worker\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrApiGatewayZuulApplication">
+  <component name="RunManager" selected="Application.HrWorkerApplication">
     <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrapigatewayzuul.HrApiGatewayZuulApplication" />
       <module name="hr-api-gateway-zuul" />
@@ -148,11 +157,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrApiGatewayZuulApplication" />
-        <item itemvalue="Application.HrWorkerApplication" />
-        <item itemvalue="Application.HrUserApplication" />
         <item itemvalue="Application.HrPayrollApplication" />
+        <item itemvalue="Application.HrWorkerApplication" />
         <item itemvalue="Application.HrOauthApplication" />
+        <item itemvalue="Application.HrUserApplication" />
+        <item itemvalue="Application.HrApiGatewayZuulApplication" />
       </list>
     </recent_temporary>
   </component>
