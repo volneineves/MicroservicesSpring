@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Cors configuration">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="DB config server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/volnei/hrworker/resources/WorkerResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,13 +79,13 @@
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-worker\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HrWorkerApplication">
-    <configuration name="HrApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.volnei.hrapigatewayzuul.HrApiGatewayZuulApplication" />
-      <module name="hr-api-gateway-zuul" />
+  <component name="RunManager" selected="Application.HrConfigServerApplication">
+    <configuration name="HrConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.volnei.hrconfigserver.HrConfigServerApplication" />
+      <module name="hr-config-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.volnei.hrapigatewayzuul.config.*" />
+          <option name="PATTERN" value="com.volnei.hrconfigserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,15 +150,15 @@
       <item itemvalue="Application.HrPayrollApplication" />
       <item itemvalue="Application.HrUserApplication" />
       <item itemvalue="Application.HrWorkerApplication" />
-      <item itemvalue="Application.HrApiGatewayZuulApplication" />
+      <item itemvalue="Application.HrConfigServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HrPayrollApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
+        <item itemvalue="Application.HrConfigServerApplication" />
+        <item itemvalue="Application.HrPayrollApplication" />
         <item itemvalue="Application.HrOauthApplication" />
         <item itemvalue="Application.HrUserApplication" />
-        <item itemvalue="Application.HrApiGatewayZuulApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638196714364</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="DB config server">
+      <created>1638198068960</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1638198068960</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +379,7 @@
     <MESSAGE value="Zuul authorization" />
     <MESSAGE value="Security configs to config server" />
     <MESSAGE value="Cors configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cors configuration" />
+    <MESSAGE value="DB config server" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB config server" />
   </component>
 </project>
