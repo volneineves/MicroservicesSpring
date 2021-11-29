@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Login and JWT token">
-      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/config/AppConfig.java" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Zuul authorization">
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/config/AuthorizationServerConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-oauth/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,6 +76,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-oauth\src\main\resources" />
+      <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-api-gateway-zuul\src\main\resources" />
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-oauth\src\main\java\com\volnei\hroauth" />
       <recent name="C:\Users\volne\Documents\DevSuperior\MicroservicesSpringDevSuperior\hr-worker\src\main\resources" />
     </key>
@@ -307,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638151548283</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Zuul authorization">
+      <created>1638153990938</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1638153990938</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,6 +358,7 @@
     <MESSAGE value="Configuring hr-oauth project" />
     <MESSAGE value="UserFeignCLient" />
     <MESSAGE value="Login and JWT token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login and JWT token" />
+    <MESSAGE value="Zuul authorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zuul authorization" />
   </component>
 </project>
