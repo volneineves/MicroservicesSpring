@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="UserFeignCLient">
-      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/config/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="fdff599a-1be7-4e34-8edb-17be07981734" name="Changes" comment="Login and JWT token">
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/volnei/hrapigatewayzuul/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hr-oauth/src/main/java/com/volnei/hroauth" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -94,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HrEurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.volnei.hreurekaserver.HrEurekaServerApplication" />
-      <module name="hr-eureka-server" />
+    <configuration name="HrOauthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.volnei.hroauth.HrOauthApplication" />
+      <module name="hr-oauth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.volnei.hreurekaserver.*" />
+          <option name="PATTERN" value="com.volnei.hroauth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HrOauthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.volnei.hroauth.HrOauthApplication" />
-      <module name="hr-oauth" />
+    <configuration name="HrPayrollApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.volnei.hrpayroll.HrPayrollApplication" />
+      <module name="hr-payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.volnei.hroauth.*" />
+          <option name="PATTERN" value="com.volnei.hrpayroll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HrWorkerApplication" type="Application" factoryName="Application" singleton="false" temporary="true">
+    <configuration name="HrWorkerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.volnei.hrworker.HrWorkerApplication" />
       <module name="hr-worker" />
       <extension name="coverage">
@@ -147,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HrWorkerApplication" />
-      <item itemvalue="Application.HrEurekaServerApplication" />
-      <item itemvalue="Application.HrApiGatewayZuulApplication" />
-      <item itemvalue="Application.HrUserApplication" />
       <item itemvalue="Application.HrOauthApplication" />
+      <item itemvalue="Application.HrPayrollApplication" />
+      <item itemvalue="Application.HrUserApplication" />
+      <item itemvalue="Application.HrWorkerApplication" />
+      <item itemvalue="Application.HrApiGatewayZuulApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HrApiGatewayZuulApplication" />
-        <item itemvalue="Application.HrOauthApplication" />
-        <item itemvalue="Application.HrUserApplication" />
-        <item itemvalue="Application.HrEurekaServerApplication" />
         <item itemvalue="Application.HrWorkerApplication" />
+        <item itemvalue="Application.HrUserApplication" />
+        <item itemvalue="Application.HrPayrollApplication" />
+        <item itemvalue="Application.HrOauthApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638148857398</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Login and JWT token">
+      <created>1638151548283</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1638151548283</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,6 +343,7 @@
     <MESSAGE value="Project hr-oauth created" />
     <MESSAGE value="Configuring hr-oauth project" />
     <MESSAGE value="UserFeignCLient" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserFeignCLient" />
+    <MESSAGE value="Login and JWT token" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and JWT token" />
   </component>
 </project>
